@@ -1,0 +1,11 @@
+{
+  "Network": {
+    "Host": "127.0.0.1",
+    "Port": 21000
+  },
+  "Region": {
+    "Name": "FreeSR",
+    "EnvType": "2",
+    "DispatchUrl": "http://127.0.0.1:21000/query_gateway"
+  }
+}

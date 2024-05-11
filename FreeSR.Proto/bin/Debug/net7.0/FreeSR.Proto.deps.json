@@ -1,0 +1,70 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "FreeSR.Proto/1.0.0": {
+        "dependencies": {
+          "protobuf-net": "3.2.30"
+        },
+        "runtime": {
+          "FreeSR.Proto.dll": {}
+        }
+      },
+      "protobuf-net/3.2.30": {
+        "dependencies": {
+          "protobuf-net.Core": "3.2.30"
+        },
+        "runtime": {
+          "lib/net6.0/protobuf-net.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.2.30.709"
+          }
+        }
+      },
+      "protobuf-net.Core/3.2.30": {
+        "dependencies": {
+          "System.Collections.Immutable": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/protobuf-net.Core.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.2.30.709"
+          }
+        }
+      },
+      "System.Collections.Immutable/7.0.0": {}
+    }
+  },
+  "libraries": {
+    "FreeSR.Proto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "protobuf-net/3.2.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C/UTlmxEJHAHpqm8xQK1UyJKaIynVCSNG4mVrbLgnZ7ccH28nN49O8iMJvKEodTgVbnimvy+3mIiAdW6mATwnw==",
+      "path": "protobuf-net/3.2.30",
+      "hashPath": "protobuf-net.3.2.30.nupkg.sha512"
+    },
+    "protobuf-net.Core/3.2.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v2ZxxYrz+X212ukSx+uqkLuPu414bvmSAnTyf+PBUKR9ENJxO4P/csorA/27456MCp1JNoMssDj/f91RDiwBfQ==",
+      "path": "protobuf-net.core/3.2.30",
+      "hashPath": "protobuf-net.core.3.2.30.nupkg.sha512"
+    },
+    "System.Collections.Immutable/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dQPcs0U1IKnBdRDBkrCTi1FoajSTBzLcVTpjO4MBCMC7f4pDOIPzgBoX8JjG7X6uZRJ8EBxsi8+DR1JuwjnzOQ==",
+      "path": "system.collections.immutable/7.0.0",
+      "hashPath": "system.collections.immutable.7.0.0.nupkg.sha512"
+    }
+  }
+}

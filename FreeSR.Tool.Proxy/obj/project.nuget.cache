@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "rJj6SXobeO3wvnPCmrXGxlOUsBcZ0tesYxPUHzaB7RnI21aUwgPlnxLKAkbUPkb3cfsIptX9IDo1GvDBeY2RUg==",
+  "success": true,
+  "projectFilePath": "E:\\123pan\\FreeSR-225\\FreeSR.Tool.Proxy\\FreeSR.Tool.Proxy.csproj",
+  "expectedPackageFiles": [
+    "E:\\nuget\\packages\\brotlisharplib\\0.3.3\\brotlisharplib.0.3.3.nupkg.sha512",
+    "E:\\nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "E:\\nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "E:\\nuget\\packages\\portable.bouncycastle\\1.8.8\\portable.bouncycastle.1.8.8.nupkg.sha512",
+    "E:\\nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "E:\\nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "E:\\nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "E:\\nuget\\packages\\titanium.web.proxy\\3.2.0\\titanium.web.proxy.3.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
