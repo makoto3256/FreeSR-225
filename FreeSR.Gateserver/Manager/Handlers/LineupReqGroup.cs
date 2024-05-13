@@ -9,7 +9,7 @@
         public static uint Avatar1 = 8006;
         public static uint Avatar2 = 1308;
         public static uint Avatar3 = 1314;
-        public static uint Avatar4 = 1315;
+        public static uint Avatar4 = 1310;
         [Handler(CmdType.CmdGetCurLineupDataCsReq)]
         public static void OnGetCurLineupDataCsReq(NetSession session, int cmdId, object _)
         {

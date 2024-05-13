@@ -28,7 +28,7 @@
                 {
                     Version = 51,
                     Time = DateTimeOffset.Now.ToUnixTimeMilliseconds(),
-                    Data = Convert.FromBase64String("G0x1YVMBGZMNChoKBAQICHhWAAAAAAAAAAAAAAAod0ABTkBDOlxVc2Vyc1x4ZW9uZGV2XERvY3VtZW50c1xnaXRcaGtycGdfYnVpbGRfc2VjdXJpdHlcamFkZV9zZWN1cml0eV9tb2R1bGUubHVhAAAAAAAAAAAAAQQfAAAAJABAAClAQAApgEAAKcBAAFYAAQAsgAABHUBBAKSAQQDkAEAA6cDBAekAwgHpQMIBrAAAASyAAAAfwEKFJABAAClAQAApgEAAKcBAAFYAAwAsgAABHUBBAKSAQQDkAEAA6cDBAekAwgHpQMIBrAAAASyAAAAfQEOFGQCAAA4AAAAEA0NTBAxVbml0eUVuZ2luZQQLR2FtZU9iamVjdAQFRmluZAQpVUlSb290L0Fib3ZlRGlhbG9nL0JldGFIaW50RGlhbG9nKENsb25lKQQXR2V0Q29tcG9uZW50SW5DaGlsZHJlbgQHdHlwZW9mBARSUEcEB0NsaWVudAQOTG9jYWxpemVkVGV4dAQFdGV4dBQqSmFkZVNSIGlzIGEgZnJlZSBhbmQgb3BlbiBzb3VyY2Ugc29mdHdhcmUEDFZlcnNpb25UZXh0FC5WaXNpdCBkaXNjb3JkLmdnL3JldmVyc2Vkcm9vbXMgZm9yIG1vcmUgaW5mbyEBAAAAAQAAAAAAHwAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAAAAAAAAQAAAAVfRU5W")
+                    Data = Convert.FromBase64String("bG9jYWwgZnVuY3Rpb24gYmV0YV90ZXh0KCkKICAgIGxvY2FsIGdhbWVPYmplY3QgPSBDUy5Vbml0eUVuZ2luZS5HYW1lT2JqZWN0LkZpbmQoIlVJUm9vdC9BYm92ZURpYWxvZy9CZXRhSGludERpYWxvZyhDbG9uZSkiKQogICAgaWYgZ2FtZU9iamVjdCB0aGVuCiAgICAgICAgbG9jYWwgdGV4dENvbXBvbmVudCA9IGdhbWVPYmplY3Q6R2V0Q29tcG9uZW50SW5DaGlsZHJlbih0eXBlb2YoQ1MuUlBHLkNsaWVudC5Mb2NhbGl6ZWRUZXh0KSkKICAgICAgICBpZiB0ZXh0Q29tcG9uZW50IHRoZW4KICAgICAgICAgICAgdWlkID0gdGV4dENvbXBvbmVudC50ZXh0OwogICAgICAgICAgICB0ZXh0Q29tcG9uZW50LnRleHQgPSAnPHNpemU9MTU+PGNvbG9yPSNGRkZGMDA+RnJlZVNS5piv5LiA5Liq5byA5rqQ5LiU5YWN6LS555qE6aG555uuPC9jb2xvcj48L3NpemU+JwogICAgICAgICAgICB0ZXh0Q29tcG9uZW50LmZvbnRTaXplID0gMTAwCiAgICAgICAgZW5kCiAgICBlbmQKZW5kCgpsb2NhbCBmdW5jdGlvbiBtaHlfdGV4dChvYmopCiAgICBsb2NhbCBnYW1lT2JqZWN0ID0gQ1MuVW5pdHlFbmdpbmUuR2FtZU9iamVjdC5GaW5kKCJJRE1BUDEiKQogICAgaWYgZ2FtZU9iamVjdCB0aGVuCiAgICAgICAgbG9jYWwgdGV4dENvbXBvbmVudCA9IGdhbWVPYmplY3Q6R2V0Q29tcG9uZW50SW5DaGlsZHJlbih0eXBlb2YoQ1MuUlBHLkNsaWVudC5NZXNzYWdlQm94RGlhbG9nVXRpbCkpCiAgICAgICAgaWYgdGV4dENvbXBvbmVudCB0aGVuCiAgICAgICAgICAgIHRleHRDb21wb25lbnQuU2hvd0Fib3ZlRGlhbG9nVGV4dCA9IGZhbHNlCiAgICAgICAgICAgIHRleHRDb21wb25lbnQuZm9udFNpemUgPSAxMDAKICAgICAgICBlbmQKICAgIGVuZAplbmQKCmJldGFfdGV4dCgpCm1oeV90ZXh0KCk=")
                 },
 
                 ClientTimeMs = heartbeatReq.ClientTimeMs,
@@ -82,7 +82,7 @@
                 ServerTimestampMs = (ulong)DateTimeOffset.Now.ToUnixTimeSeconds() * 1000,
                 BasicInfo = new PlayerBasicInfo
                 {
-                    Nickname = "xeondev",
+                    Nickname = "FreeSR",
                     Level = 70,
                     Exp = 0,
                     Stamina = 100,
@@ -100,7 +100,7 @@
             session.Send(CmdType.CmdPlayerGetTokenScRsp, new PlayerGetTokenScRsp
             {
                 Retcode = 0,
-                Uid = 1337,
+                Uid = 10001,
                 //BlackInfo = null,
                 Msg = "OK",
                 SecretKeySeed = 0
