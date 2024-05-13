@@ -8,7 +8,7 @@
         {
             return new JObject
             {
-                {"uid", 1},
+                {"uid", 10001},
                 {"name", "FreeSR"},
                 {"email", "FreeSR@mihomo.com"},
                 {"mobile", ""},

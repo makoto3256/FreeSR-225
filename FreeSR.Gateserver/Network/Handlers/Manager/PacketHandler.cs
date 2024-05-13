@@ -75,7 +75,7 @@
             {CmdType.CmdGetCurChallengeCsReq, CmdType.CmdGetCurChallengeScRsp},
             {CmdType.CmdGetRogueInfoCsReq, CmdType.CmdGetRogueInfoScRsp},
             {CmdType.CmdGetExpeditionDataCsReq, CmdType.CmdGetExpeditionDataScRsp},
-            //{CmdType.CmdGetRogueDialogueEventDataCsReq, CmdType.CmdGetRogueDialogueEventDataScRsp},
+            {CmdType.CmdGetRogueCommonDialogueDataCsReq, CmdType.CmdGetRogueCommonDialogueDataScRsp},
             {CmdType.CmdGetJukeboxDataCsReq, CmdType.CmdGetJukeboxDataScRsp},
             {CmdType.CmdSyncClientResVersionCsReq, CmdType.CmdSyncClientResVersionScRsp},
             {CmdType.CmdDailyFirstMeetPamCsReq, CmdType.CmdDailyFirstMeetPamScRsp},

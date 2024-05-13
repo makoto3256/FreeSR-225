@@ -13,9 +13,9 @@
         {
             SceneInfo scene = new SceneInfo
             {
-                GameModeType = 1,
-                LeaderEntityId = 1,
-                Lgflfajffjl = 1,
+                GameModeType = 2,
+                //LeaderEntityId = 1,
+                //Lgflfajffjl = 1,
                 //Pjbjelcgkof =1,
                 EntryId = 2010101,
                 PlaneId = 20101,
