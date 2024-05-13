@@ -30,7 +30,7 @@
             {
                 Retcode = 0,
                 TopServerRegionName = "FreeSR",
-                RegionInfoLists = { RegionManager.GetRegionList() }
+                ServerLists = { RegionManager.GetRegionList() }
             })));
             return true;
         }

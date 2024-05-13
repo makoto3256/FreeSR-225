@@ -44,7 +44,7 @@
                 Retcode = 0,
                 Gender = Gender.GenderMan,
                 BasicTypeInfoLists ={
-                    new PlayerHeroBasicTypeInfo
+                    new HeroBasicTypeInfo
                     {
                         BasicType = HeroBasicType.BoyWarrior,
                         Rank = 1,

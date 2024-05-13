@@ -114,7 +114,7 @@
 
             var request = data as ReplaceLineupCsReq;
             Avatar1 = 0; Avatar2 = 0; Avatar3 = 0; Avatar4 = 0;
-            foreach (LineupSlotData slotData in request.LineupSlotLists)
+            foreach (LineupSlotData slotData in request.ReplaceSlotLists)
             {
                 if (slotData.Slot == 0) Avatar1 = slotData.Id;
                 if (slotData.Slot == 1) Avatar2 = slotData.Id;

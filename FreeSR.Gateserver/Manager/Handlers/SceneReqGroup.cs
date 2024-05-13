@@ -14,9 +14,9 @@
             SceneInfo scene = new SceneInfo
             {
                 GameModeType = 1,
-                Nnfgkelcban = 1,
+                LeaderEntityId = 1,
                 Lgflfajffjl = 1,
-                Pjbjelcgkof =1,
+                //Pjbjelcgkof =1,
                 EntryId = 2010101,
                 PlaneId = 20101,
                 FloorId = 20101001,
@@ -73,7 +73,7 @@
                 Retcode = 0,
                 EntryId = request.EntryIdLists[0],
                 CurMapEntryId = request.EntryId,
-                SceneMapInfoes = { mapinfo },
+                MapInfoLists = { mapinfo },
                 LightenSectionLists = back,
             };
 

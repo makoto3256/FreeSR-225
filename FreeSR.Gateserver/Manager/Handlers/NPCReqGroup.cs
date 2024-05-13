@@ -36,7 +36,7 @@
                     response.NpcMeetStatusLists.Add(new NpcMeetStatusInfo
                     {
                         IsMeet = true,
-                        MeetId = id
+                        SeriesId = id
                     });
                 
             }
